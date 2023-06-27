@@ -1,0 +1,130 @@
+html {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: rgba(249, 249, 249, 1);
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: white;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header .text {
+    font-weight: 600;
+}
+
+.page_content .text {
+    font-weight: 600;
+    padding: 10px;
+    padding-bottom: 0px;
+    align-self: flex-start;
+    margin: 15px;
+    margin-bottom: 0px;
+}
+
+.page_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.card img {
+    max-width: 100%;
+}
+
+.choice_other {
+    display: flex;
+    color: rgb(52 168 83);
+    font-weight: 600;
+    font-size: 12px;
+    padding: 0 10px;
+    align-self: flex-end;
+    text-shadow: 0 0 3px #d4ddd5;
+}
+
+.choice_other:hover {
+    color: #0e3b13d1;
+}
+
+.go_to_payment {
+    background-color: #050505;
+    align-self: center;
+    user-select: none;
+    color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    border-radius: 22.5px;
+    padding: 10px 50px;
+    margin: 10px;
+    margin-top: 30px;
+    max-width: 150px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px 0px;
+}
+
+.add_to_cart {
+    align-self: center;
+    user-select: none;
+    color: #F2F2F2;
+    background-color: #00623B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 22.5px;
+    padding: 10px 50px;
+    margin: 10px;
+    max-width: 150px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px 0px;
+    transition: 0.5s;
+}
+
+.add_to_cart:hover {
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.go_to_payment:hover {
+    transition: 1s;
+    color: #d4ddd5;
+}
+
+.go_to_payment:hover {
+    transition: 1s;
+    color: #d4ddd5;
+}
+
+
+.go_to_payment img {
+    height: 20px;
+}
+
+@media screen and (min-width: 500px) {
+    body {
+        display: flex;
+        justify-self: center;
+        align-self: center;
+        max-width: 420px;
+    }
+}
